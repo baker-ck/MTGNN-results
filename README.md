@@ -27,7 +27,7 @@ MTGNN-results/
 ### Environment
 - Python:  3.7.1
 - PyTorch: 1.2.0
-- Device: CUDA (NVIDIA GTX 1060 3GB)
+- Device: CUDA (NVIDIA GTX 1060, 3GB Memory)
 - Conda environment exported in `environment.yaml`
 
 ### Results
