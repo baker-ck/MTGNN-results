@@ -4,9 +4,25 @@ This folder contains results for trained MTGNN models for solar, traffic, electr
 ### Implementation notes
 We used the publicly available MTGNN ([https://github.com/RWLinno/STUM](https://github.com/nnzhan/MTGNN)) codebase as our training framework. No changes were made to model architectures or loss functions. However, we reduced the number of runs in train_single_step.py from 10 to 3 to speed up training of the initial baselines.
 
-### Files
-- `model-solar-3.pt`: PyTorch checkpoint of the trained solar model
-- `model-solar-3-sampling.pt`: PyTorch checkpoint of the trained solar model with sampling
+### Repo structure
+```
+MTGNN-results/
+├── README.md
+├── electricity/
+│   └── model-electricity-3.pt
+|   └── model-electricity-sampling-3.pt
+├── exchange-rate/
+│   └── model-exchange-rate-3.pt
+|   └── model-exchange-rate-sampling-3.pt
+├── solar/
+│   └── model-solar-3.pt
+|   └── model-solar-sampling-3.pt
+├── traffic/
+│   └── model-traffic-3.pt
+|   └── model-traffic-sampling-3.pt
+└── requirements.txt
+└── environment.yaml
+```
 
 ### Environment
 - Python:  3.7.1
