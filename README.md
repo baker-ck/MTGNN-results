@@ -2,7 +2,7 @@
 This folder contains results for trained MTGNN models for solar, traffic, electricity and exchange rate data, from original Wu et al. (2020) paper
 
 ### Implementation notes
-We used the publicly available MTGNN ([https://github.com/RWLinno/STUM](https://github.com/nnzhan/MTGNN)) codebase as our training framework. No changes were made to model architectures or loss functions. However, we reduced the number of runs in train_single_step.py from 10 to 3 to speed up training of the initial baselines.
+We used the publicly available MTGNN (https://github.com/nnzhan/MTGNN) codebase as our training framework. No changes were made to model architectures or loss functions. However, we reduced the number of runs in train_single_step.py from 10 to 3 to speed up training of the initial baselines.
 
 ### Repo structure
 ```
