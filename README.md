@@ -1,4 +1,4 @@
-# MTGNN results
+# Multivariate Time Series GNN (MTGNN) results
 This folder contains results for trained MTGNN models for solar, traffic, electricity and exchange rate multivariate time series data, from original Wu et al. (2020) paper
 
 ### Implementation notes
