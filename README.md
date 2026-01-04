@@ -45,6 +45,7 @@ MTGNN-results/
 - Batch size: 16
 - Runs: 3
 - Epochs: 30
+- Criterion: validation loss
 
 |   valid    | RSE       | RAE      | corr.      |
 | ---------- | --------- | --------- | --------- |
@@ -63,6 +64,7 @@ MTGNN-results/
 - Batch size: 16
 - Runs: 3
 - Epochs: 30
+- Criterion: validation loss
 
 |   valid    | RSE       | RAE      | corr.      |
 | ---------- | --------- | --------- | --------- |
@@ -82,6 +84,7 @@ MTGNN-results/
 - Batch size: 16
 - Runs: 3
 - Epochs: 30
+- Criterion: validation loss
 
 |   valid    | RSE       | RAE      | corr.      |
 | ---------- | --------- | --------- | --------- |
