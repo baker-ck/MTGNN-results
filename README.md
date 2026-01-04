@@ -37,7 +37,7 @@ MTGNN-results/
 ### Results
 #### Model: MTGNN (Wu et al., 2020)
 - Configuration: single step
-- Dataset: Solar.txt
+- Dataset: solar.txt
 - Horizons: 3
 - Batch size: 16
 - Runs: 3
@@ -55,7 +55,7 @@ MTGNN-results/
 
 #### Model: MTGNN (Wu et al., 2020)
 - Configuration: single step with sampling
-- Dataset: Solar.txt
+- Dataset: solar.txt
 - Horizons: 3
 - Batch size: 16
 - Runs: 3
@@ -70,6 +70,25 @@ MTGNN-results/
 | ---------- | --------- | --------- | --------- |
 | mean      |    0.1785  | 0.0858 |   0.9851   |
 | std |    0.0004  |   0.0006  |   0.0001  |
+
+
+#### Model: MTGNN (Wu et al., 2020)
+- Configuration: single step 
+- Dataset:  electricity.txt
+- Horizons: 3
+- Batch size: 16
+- Runs: 3
+- Epochs: 30
+
+|   valid    | RSE       | RAE      | corr.      |
+| ---------- | --------- | --------- | --------- |
+| mean      |    0.0496  |  0.0348  |   0.9407   |
+| std |    0.0002  |   0.0002  |   0.0003  |
+
+|   test    | RSE       | RAE      | corr.      |
+| ---------- | --------- | --------- | --------- |
+| mean      |    0.0749  | 0.0417 |   0.9476   |
+| std |    0.0003  |   0.0003  |   0.0003  |
 
 ### References
 
