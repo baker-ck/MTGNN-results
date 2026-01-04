@@ -8,6 +8,10 @@ We used the publicly available MTGNN (https://github.com/nnzhan/MTGNN) codebase 
 ```
 MTGNN-results/
 ├── README.md
+├── METR-LA/
+│   └── coming soon
+├── PEMS-BAY/
+│   └── coming soon
 ├── electricity/
 │   └── model-electricity-3.pt
 |   └── model-electricity-sampling-3.pt
@@ -27,13 +31,15 @@ MTGNN-results/
 ### Environment
 - Python:  3.7.1
 - PyTorch: 1.2.0
-- Device: CUDA (NVIDIA GTX 1060, 3GB Memory)
+- Device: CUDA (NVIDIA GTX 1060, 3GB)
 - Conda environment exported in `environment.yaml`
 
 ### Results
 #### Model: MTGNN (Wu et al., 2020)
 - Configuration: single step
 - Dataset: Solar.txt
+- Horizons: 3
+- Batch size: 16
 - Runs: 3
 - Epochs: 30
 
