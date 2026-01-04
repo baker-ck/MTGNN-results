@@ -56,6 +56,8 @@ MTGNN-results/
 #### Model: MTGNN (Wu et al., 2020)
 - Configuration: single step with sampling
 - Dataset: Solar.txt
+- Horizons: 3
+- Batch size: 16
 - Runs: 3
 - Epochs: 30
 
