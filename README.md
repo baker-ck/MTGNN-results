@@ -44,7 +44,7 @@ MTGNN-results/
 - Horizons: 3
 - Batch size: 16
 - Runs: 3
-- Epochs: 30
+- Epochs/Run: 30
 - Criterion: validation loss
 
 |   valid    | RSE       | RAE      | corr.      |
@@ -63,7 +63,7 @@ MTGNN-results/
 - Horizons: 3
 - Batch size: 16
 - Runs: 3
-- Epochs: 30
+- Epochs/Run: 30
 - Criterion: validation loss
 
 |   valid    | RSE       | RAE      | corr.      |
@@ -83,7 +83,7 @@ MTGNN-results/
 - Horizons: 3
 - Batch size: 16
 - Runs: 3
-- Epochs: 30
+- Epochs/Run: 30
 - Criterion: validation loss
 
 |   valid    | RSE       | RAE      | corr.      |
@@ -95,6 +95,26 @@ MTGNN-results/
 | ---------- | --------- | --------- | --------- |
 | mean      |    0.0749  | 0.0417 |   0.9476   |
 | std |    0.0003  |   0.0003  |   0.0003  |
+
+#### Model: MTGNN (Wu et al., 2020)
+- Configuration: multi step 
+- Dataset: METR-LA
+- Horizons: 12
+- Batch size: 16
+- Runs: 3
+- Epochs/Run: 100
+- Criterion: validation loss
+
+|   valid    | MAE       | RMSE      | MAPE     |
+| ---------- | --------- | --------- | --------- |
+| mean      |    2.7548  |  5.7862  |   0.0774   |
+| std |    0.0034  |   0.0265  |   0.0005  |
+
+|   test / horizon   | MAE-mean       | RMSE-mean      | MAPE-mean      | MAE-std       | RMSE-std      | MAPE-std      |
+| ---------- | --------- | --------- | --------- |
+| 3      |    2.6803  | 5.1870 |   0.0691   | 0.0050 | 0.0202 |0.0004|
+| 6      |    3.0441  | 6.1775|   0.0829   | 0.0015 | 0.0202 |0.0005|
+| 12      |    3.4747  | 7.2334 |   0.0996   | 0.0078 | 0.0322 |0.0010|
 
 ### References
 
