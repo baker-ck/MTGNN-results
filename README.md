@@ -120,6 +120,26 @@ MTGNN-results/
 | 6      |    3.0441  | 6.1775|   0.0829   | 0.0015 | 0.0202 |0.0005|
 | 12      |    3.4747  | 7.2334 |   0.0996   | 0.0078 | 0.0322 |0.0010|
 
+#### Model: MTGNN (Wu et al., 2020)
+- Configuration: multi step 
+- Dataset: PEMS-BAY
+- Horizons: 12
+- Batch size: 16
+- Runs: 3
+- Epochs/Run: 100
+- Criterion: validation loss
+
+|   valid    | MAE       | RMSE      | MAPE     |
+| ---------- | --------- | --------- | --------- |
+| mean      |    1.5801  |  3.6220  |   0.0360   |
+| std |    0.0042  |   0.0119  |   0.0002  |
+
+|   test / horizon   | MAE-mean       | RMSE-mean      | MAPE-mean      | MAE-std       | RMSE-std      | MAPE-std      |
+| ---------- | --------- | --------- | --------- |--------- | --------- | --------- |
+| 3      |    1.3295  | 2.7979 |   0.0279   | 0.0033 | 0.0153 |0.0002|
+| 6      |    1.6511  | 3.7422|   0.0372   | 0.0055 | 0.0203 |0.0001|
+| 12      |    1.9491  | 4.5015 |   0.0460   | 0.0116 | 0.0332 |0.0001|
+
 ### References
 
 The implementation for MTGNN (Wu et al.) is based on the KDD 2020 paper “Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks” (https://arxiv.org/abs/2005.11650), with the following citation:
