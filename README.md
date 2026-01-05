@@ -12,9 +12,13 @@ We used the publicly available MTGNN (https://github.com/nnzhan/MTGNN) codebase 
 MTGNN-results/
 ├── README.md
 ├── METR-LA/
-│   └── model-metrla.pt
+│   └── model-metrla.ptexp1_0.pth
+│   └── model-metrla.ptexp1_1.pth
+│   └── model-metrla.ptexp1_2.pth
 ├── PEMS-BAY/
-│   └── model-pemsbay.pt
+│   └── model-pemsbay.ptexp1_0.pth
+│   └── model-pemsbay.ptexp1_1.pth
+│   └── model-pemsbay.ptexp1_2.pth
 ├── electricity/
 │   └── model-electricity-3.pt
 |   └── model-electricity-sampling-3.pt
